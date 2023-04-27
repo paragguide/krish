@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="FacebookTest">
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://www.facebook.com/" />
+  <parameter name="scrshot" value="facebook" />  
+  <parameter name="xpathfile" value="facebookxpath" />
+  <parameter name="filename" value="facebooklog" />
+  <parameter name="key" value="true" />
+    <classes>
+      <class name="testcases.FacebookTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="AmazonTest">
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://www.amazon.in/" />
+  <parameter name="scrshot" value="amazon" />  
+  <parameter name="xpathfile" value="amazonxpath" />
+  <parameter name="filename" value="amazonlog" />
+  <parameter name="key" value="true" />
+  
+  <classes>
+   <class name="testcases.AmazonTest"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

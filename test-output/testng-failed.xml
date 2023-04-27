@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="FacebookTest(failed)">
+    <parameter name="filename" value="facebooklog"/>
+    <parameter name="scrshot" value="facebook"/>
+    <parameter name="xpathfile" value="facebookxpath"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <parameter name="key" value="true"/>
+    <classes>
+      <class name="testcases.FacebookTest">
+        <methods>
+          <include name="readXpath"/>
+          <include name="closeReport"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="test" invocation-numbers="0 1 2"/>
+          <include name="generateLogReport"/>
+        </methods>
+      </class> <!-- testcases.FacebookTest -->
+    </classes>
+  </test> <!-- FacebookTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
