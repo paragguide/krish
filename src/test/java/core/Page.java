@@ -47,8 +47,8 @@ public class Page
   {
 	  if(browser.equals("chrome"))
 	  {
-		 // System.setProperty("webdriver.chrome.driver","D:\\browserdrivers\\chromedriver.exe");
-			WebDriverManager.chromedriver().setup();
+		  System.setProperty("webdriver.chrome.driver","D:\\browserdrivers\\chromedriver.exe");
+		//	WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			
 			log.debug("chrome open");

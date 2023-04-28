@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105991" started-at="2023-04-27T21:00:08 IST" finished-at="2023-04-27T21:01:54 IST">
+    <groups>
+    </groups>
+    <test name="FacebookTest" duration-ms="21217" started-at="2023-04-27T21:00:08 IST" finished-at="2023-04-27T21:00:30 IST">
+      <class name="testcases.FacebookTest">
+        <test-method status="PASS" signature="generateLogReport(java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="generateLogReport" is-config="true" duration-ms="171" started-at="2023-04-27T21:00:08 IST" finished-at="2023-04-27T21:00:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebooklog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateLogReport -->
+        <test-method status="PASS" signature="readXpath(java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="readXpath" is-config="true" duration-ms="1" started-at="2023-04-27T21:00:09 IST" finished-at="2023-04-27T21:00:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebookxpath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readXpath -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="openBrowser" is-config="true" duration-ms="7627" started-at="2023-04-27T21:00:09 IST" finished-at="2023-04-27T21:00:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test(java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="test" duration-ms="224" started-at="2023-04-27T21:00:16 IST" data-provider="loginData" finished-at="2023-04-27T21:00:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saxena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@1786dec2]" name="closeBrowser" is-config="true" duration-ms="624" started-at="2023-04-27T21:00:17 IST" finished-at="2023-04-27T21:00:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="openBrowser" is-config="true" duration-ms="5255" started-at="2023-04-27T21:00:17 IST" finished-at="2023-04-27T21:00:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test(java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="test" duration-ms="219" started-at="2023-04-27T21:00:23 IST" data-provider="loginData" finished-at="2023-04-27T21:00:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taneja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@1786dec2]" name="closeBrowser" is-config="true" duration-ms="637" started-at="2023-04-27T21:00:23 IST" finished-at="2023-04-27T21:00:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="openBrowser" is-config="true" duration-ms="4984" started-at="2023-04-27T21:00:23 IST" finished-at="2023-04-27T21:00:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test(java.lang.String,java.lang.String)[pri:0, instance:testcases.FacebookTest@1786dec2]" name="test" duration-ms="218" started-at="2023-04-27T21:00:28 IST" data-provider="loginData" finished-at="2023-04-27T21:00:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@1786dec2]" name="closeBrowser" is-config="true" duration-ms="628" started-at="2023-04-27T21:00:29 IST" finished-at="2023-04-27T21:00:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:testcases.FacebookTest@1786dec2]" name="closeReport" is-config="true" duration-ms="275" started-at="2023-04-27T21:00:29 IST" finished-at="2023-04-27T21:00:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- testcases.FacebookTest -->
+    </test> <!-- FacebookTest -->
+    <test name="AmazonTest" duration-ms="84760" started-at="2023-04-27T21:00:30 IST" finished-at="2023-04-27T21:01:54 IST">
+      <class name="testcases.AmazonTest">
+        <test-method status="PASS" signature="generateLogReport(java.lang.String,java.lang.String)[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="generateLogReport" is-config="true" duration-ms="5" started-at="2023-04-27T21:00:30 IST" finished-at="2023-04-27T21:00:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amazonlog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateLogReport -->
+        <test-method status="PASS" signature="readXpath(java.lang.String)[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="readXpath" is-config="true" duration-ms="0" started-at="2023-04-27T21:00:30 IST" finished-at="2023-04-27T21:00:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amazonxpath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readXpath -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="openBrowser" is-config="true" duration-ms="7563" started-at="2023-04-27T21:00:30 IST" finished-at="2023-04-27T21:00:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="test" duration-ms="2521" started-at="2023-04-27T21:00:37 IST" data-provider="dp" finished-at="2023-04-27T21:00:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="closeBrowser" is-config="true" duration-ms="654" started-at="2023-04-27T21:00:40 IST" finished-at="2023-04-27T21:00:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="openBrowser" is-config="true" duration-ms="33268" started-at="2023-04-27T21:00:40 IST" finished-at="2023-04-27T21:01:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="test" duration-ms="32585" started-at="2023-04-27T21:01:14 IST" data-provider="dp" finished-at="2023-04-27T21:01:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="closeBrowser" is-config="true" duration-ms="8106" started-at="2023-04-27T21:01:46 IST" finished-at="2023-04-27T21:01:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:testcases.AmazonTest@4d50efb8]" name="closeReport" is-config="true" duration-ms="54" started-at="2023-04-27T21:01:54 IST" finished-at="2023-04-27T21:01:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- testcases.AmazonTest -->
+    </test> <!-- AmazonTest -->
+  </suite> <!-- Suite -->
+</testng-results>
